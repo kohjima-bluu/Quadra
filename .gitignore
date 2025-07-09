@@ -1,0 +1,39 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# Unity auto-generated VS files
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.svd
+*.pdb
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Unity Cloud Build
+.cloud/
+
+# WebGLビルド用docsフォルダ以外のビルド
+Build/
+# ✅ GitHub Pages公開用のdocsフォルダは除外しない！
+
+# 非公開アセット
+Assets/ThirdParty/
+
+# バックアップ系（任意）
+*.zip
+*.unitypackage
