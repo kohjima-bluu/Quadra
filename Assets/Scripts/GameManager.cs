@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     private int[] filledInColumn = new int[Width];
     private int[] filledInRow = new int[Height];
 
-    private int currentPlayer = 1;
+    private int currentPlayer = 2;
     private GameObject currentIndicator;
 
     private bool isInputLocked = false;
@@ -142,7 +142,7 @@ public class GameManager : MonoBehaviour
 
     public void StartNewGame()
     {
-        currentPlayer = 1;
+        currentPlayer = 2;
         cursor = 3;
         gridState = new int[Height, Width];
         filledInColumn = new int[Width];
